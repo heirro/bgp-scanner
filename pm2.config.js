@@ -3,5 +3,5 @@ module.exports = {
     script: 'npm',
     args: 'start',
     exec_mode: 'cluster',
-    instances: max,
+    instances: 'max',
   }
