@@ -1,0 +1,33 @@
+{
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "tsx src/index.ts",
+    "format": "biome format --write ./src"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.11.1",
+    "@types/cheerio": "^0.22.35",
+    "cheerio": "^1.0.0-rc.12",
+    "hono": "^4.3.6"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.7.3",
+    "@types/node": "^20.11.17",
+    "tsx": "^4.7.1",
+    "@types/bun": "latest"
+  },
+  "name": "bgp-scanner",
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "author": "Vava Heirro",
+  "license": "MIT",
+  "keywords": [
+    "bgp-scanner",
+    "bgp",
+    "addresslist",
+    "bgp-address"
+  ]
+}
